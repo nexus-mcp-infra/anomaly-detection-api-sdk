@@ -1,0 +1,9 @@
+fastapi
+httpx
+mcp
+numpy
+pydantic
+scikit-learn
+scipy
+stripe
+uvicorn
