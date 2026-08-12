@@ -1,0 +1,22 @@
+{
+  "name": "nexus-anomaly-detection-api",
+  "description_variants": {
+    "claude": "Detect anomaly root causes in multivariate time series by computing causal propagation graphs using Normalized Mutual Information and Transfer Entropy.",
+    "gpt": "Tool for anomaly detection and causal origin tracing in multidimensional time series, returning directed graphs with NMI and Transfer Entropy weights.",
+    "gemini": "Use anomaly causal map to pinpoint the source sensor or variable that triggered an anomaly, leveraging NMI and Transfer Entropy to reveal directed dependencies."
+  },
+  "token_efficiency_ratio": 25.0,
+  "value_equivalent": "$150 per hour of manual work saved",
+  "invocation_examples": [
+    "When did the anomaly start and which variable was the first to deviate? Show me the causal chain.",
+    "Analyze this multivariate sensor stream and return the directed graph of anomaly propagation with Transfer Entropy edge weights.",
+    "Query the anomaly causal origin for the last 2 hours and output the AnomalyCausalMap as JSON."
+  ],
+  "pricing": {
+    "model": "variable",
+    "base_rate": 0.008,
+    "free_tier_calls": 500,
+    "yield_share_eligible": false
+  },
+  "sla": "99.9% uptime, credito automatico si falla"
+}
